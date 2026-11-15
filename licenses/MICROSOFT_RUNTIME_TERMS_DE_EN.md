@@ -1,0 +1,15 @@
+# Microsoft-Runtime – ergänzende Komponentenbedingungen
+
+Diese Bedingungen betreffen ausschließlich die fünf unveränderten Microsoft-VC-Runtime-DLLs im `_internal`-Verzeichnis, nicht den eigenen MiniDesk-Code oder LGPL-Bibliotheken. Mit der Nutzung dieser Microsoft-Komponenten erklärst du dich mit deren beigefügten Originalbedingungen unter `Microsoft/runtime.txt` / `Microsoft/runtime.docx` einverstanden. Wenn du diese nicht akzeptierst, verwende die Komponenten nicht.
+
+Die Komponenten sind lizenziert, nicht verkauft; Microsoft und seine Lieferanten behalten ihre Rechte. Copyrights und Hinweise dürfen nicht entfernt oder verändert werden. Die Komponenten dürfen nicht rechtswidrig genutzt, vermietet, verleast oder als eigenständiges Produkt weitergegeben werden. Technische Beschränkungen dürfen nicht umgangen werden; Reverse Engineering, Dekompilierung oder Disassemblierung ist nur erlaubt, soweit zwingendes Recht oder einschlägige eigenständige Open-Source-Rechte dies verlangen. Keine Microsoft-Marken zur Behauptung einer Unterstützung verwenden. Export-/Sanktionsbedingungen der Originalvereinbarung beachten.
+
+Die vom Herausgeber aufgrund seiner Community-Lizenz erlaubte vollständige unveränderte kostenlose MiniDesk-Weitergabe schließt diese DLLs ein; diese Erlaubnis gilt ausschließlich als Teil dieser Anwendung und mit sämtlichen Hinweisen und Bedingungen. Sie erteilt kein allgemeines Recht, Microsoft-DLLs separat oder in anderen Programmen zu verteilen. Die vollständigen Microsoft-Bedingungen einschließlich gesetzlicher Rechte und regionaler Ausnahmen bleiben maßgeblich. Die gesetzlichen Gewährleistungs-/Haftungsrechte aus den MiniDesk-Bedingungen und die unabhängigen LGPL-/anderen Drittanbieterrechte werden nicht eingeschränkt.
+
+## Microsoft runtime – supplemental component terms
+
+These terms concern only the five unmodified Microsoft VC runtime DLLs under `_internal`, not MiniDesk application code or LGPL libraries. By using these Microsoft components you accept the original terms included under `Microsoft/runtime.txt` / `Microsoft/runtime.docx`; if you do not accept them, do not use the components.
+
+The components are licensed, not sold; Microsoft and its suppliers retain their rights. Do not remove or alter notices, use unlawfully, rent, lease or distribute as a standalone product. Do not circumvent technical restrictions or reverse engineer, decompile or disassemble except as required by mandatory law or applicable independent open-source rights. Do not imply Microsoft endorsement through trademarks. Observe the original export/sanctions provisions.
+
+The publisher's Community licence permits redistribution of these components only as part of the complete, unmodified, free MiniDesk package with all notices and terms. This is not a general right to distribute Microsoft DLLs separately or in other programs. The original Microsoft agreement, statutory rights and regional exceptions apply. MiniDesk's statutory warranty/liability provisions and independent LGPL/other third-party rights remain unaffected.

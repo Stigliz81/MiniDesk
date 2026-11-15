@@ -1,0 +1,5 @@
+Originaldateien unverändert / Original files unchanged.
+
+Das Dashboard ist eine bereitgestellte, anonymisierte/bearbeitete Beispieldarstellung mit teilweise fiktiven Hardware-/Netzwerkangaben. Die Wetterbilder sind bereitgestellte Beispielaufnahmen, keine aktuelle Vorhersage. Die Verwendung der bereitgestellten Bilder wurde vom Herausgeber bestätigt; eigenständige Rechte Dritter bleiben unberührt. Quellen: Open-Meteo / CC BY 4.0; Radar RainViewer; Kartendaten © OpenStreetMap contributors, https://www.openstreetmap.org/copyright ; für tatsächlich verwendetes GeoColour EUMETSAT / NASA, für MET-Bilder MET Norway / EUMETSAT. Die Beispiele werden nicht als neu abgerufene Livebilder ausgegeben.
+
+The supplied dashboard is an edited/anonymised example with some fictional hardware/network data. Supplied weather examples are not current forecasts. The publisher approved use of the supplied images; independent third-party rights remain unaffected. Provider credits and links above accompany these unchanged files; they are not a claim of independently verified image provenance.

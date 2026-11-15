@@ -1,6 +1,6 @@
 # MiniDesk 1.0 – Open-source notices / Open-Source-Hinweise
 
-No commercial Qt licence is assumed. Independent MiniDesk application code is proprietary freeware for private and professional use under the adopted [MiniDesk terms](licenses/MINIDESK_FREEWARE_DE_EN.md). Its source remains private. Third-party rights take precedence.
+No commercial Qt licence is assumed. Independent MiniDesk application code is proprietary freeware for private and professional use under the adopted [MiniDesk terms](freeware.html). Its source remains private. Third-party rights take precedence.
 
 | Shipped component | Version and licence | Included fulfilment / notice |
 |---|---|---|
@@ -19,13 +19,13 @@ No commercial Qt licence is assumed. Independent MiniDesk application code is pr
 
 Qt/PySide6/Shiboken are separate shared libraries in `_internal`, with no application hash/signature lock. The chosen mechanism is LGPLv3 §4(d)(1): use ABI-compatible modified shared libraries in the same paths. Library modification and reverse engineering to debug such modifications are expressly permitted; later project terms must preserve these rights. This mechanism does not by itself require disclosure of independent MiniDesk application code. No claim of a tested custom rebuilt DLL or byte-reproducible build is made.
 
-The exact five official 6.12.0 source archives (qtbase, qtsvg, qtimageformats, qtwebsockets, pyside-setup including Shiboken) are locally available, verified against official SHA-256 files, and include upstream build instructions/scripts. A separate free `MiniDesk_1.0_LGPL_Sources.zip` is prepared as a release asset alongside the binary ZIP. It must actually be accessible at the same release before public binary distribution. No fictional multi-year written source offer is made.
+The exact five official 6.12.0 source archives (qtbase, qtsvg, qtimageformats, qtwebsockets, pyside-setup including Shiboken) are locally available, verified against official SHA-256 files, and include upstream build instructions/scripts. A separate free `MiniDesk_1.0_LGPL_Sources.zip` is publicly available free of charge alongside the binary ZIP at [Release v1.0](https://github.com/stigliz81/MiniDesk/releases/tag/v1.0). No fictional multi-year written source offer is made.
 
-Detailed bilingual instructions: [SOURCE_ACCESS_DE_EN.md](licenses/SOURCE_ACCESS_DE_EN.md). Exact source manifest and wheel provenance accompany the package. Source-derived notices cover all identified candidate embedded components, even where precise optional build features cannot be inferred from a stripped binary; this avoids dropping notices solely because a Python import is absent.
+Detailed bilingual instructions are included as `licenses/SOURCE_ACCESS_DE_EN.md` in the program ZIP and in the sources companion. Exact source manifest and wheel provenance accompany the package. Source-derived notices cover all identified candidate embedded components, even where precise optional build features cannot be inferred from a stripped binary; this avoids dropping notices solely because a Python import is absent.
 
 ## Microsoft app-local runtime / App-lokale Laufzeit
 
-The five required Microsoft Visual C++ v14 x64 DLLs (14.51.36247.0) are included app-locally. This candidate is intended to run without a separate Redistributable installation; Windows/UCRT, PowerShell, WMI and required .NET Framework system components remain prerequisites. No automatic installation or system-runtime changes. Startup on fresh Windows 10/11 without a separately installed VC runtime still requires practical confirmation. [Provenance and distribution basis](licenses/MICROSOFT_DISTRIBUTION_REVIEW.md). [Microsoft component terms](licenses/MICROSOFT_RUNTIME_TERMS_DE_EN.md).
+The five required Microsoft Visual C++ v14 x64 DLLs (14.51.36247.0) are included app-locally. This candidate is intended to run without a separate Redistributable installation; Windows/UCRT, PowerShell, WMI and required .NET Framework system components remain prerequisites. No automatic installation or system-runtime changes. Startup on fresh Windows 10/11 without a separately installed VC runtime still requires practical confirmation. Provenance and distribution basis are included as `licenses/MICROSOFT_DISTRIBUTION_REVIEW.md` in the program ZIP. [Microsoft component terms](licenses/MICROSOFT_RUNTIME_TERMS_DE_EN.md).
 
 ## Provenance and retained rights
 
@@ -35,6 +35,6 @@ Plural upstream `LicenseFiles` and separate `CopyrightFile` references are inclu
 
 Qt PDF/PDFium, Virtual Keyboard, Quick/QML/OpenGL, WebEngine and unused pywin32 chains are excluded. qwindows, required styles, SVG/image formats and TLS/network plugins remain.
 
-Vor öffentlicher Weitergabe: Quellenasset gleichzeitig bereitstellen, die festgelegten Freewarebedingungen und unabhängigen Bibliotheksrechte beibehalten. Die tatsächliche öffentliche Bereitstellung erfolgt erst nach ausdrücklicher Herausgeberfreigabe. Beigefügte Texte sind keine allgemeine Rechts- oder Sicherheitszertifizierung. Bereits belegte Bibliotheks-/Lizenztexte und genaue Quellen werden nicht als pauschal fehlend ausgegeben.
+Programm und Quellenasset sind gleichzeitig kostenlos veröffentlicht. Die festgelegten Freewarebedingungen und unabhängigen Bibliotheksrechte bleiben erhalten. Beigefügte Texte sind keine allgemeine Rechts- oder Sicherheitszertifizierung. Bereits belegte Bibliotheks-/Lizenztexte und genaue Quellen werden nicht als pauschal fehlend ausgegeben.
 
 Primary guidance: [Qt LGPL](https://doc.qt.io/qt-6/lgpl.html), [Qt for Python](https://doc.qt.io/qtforpython-6/licenses.html), [Qt third-party components](https://doc.qt.io/qt-6/licenses-used-in-qt.html), [Python](https://docs.python.org/3.14/license.html), [PyInstaller exception](https://pyinstaller.org/en/stable/license.html), [OpenSSL](https://openssl-library.org/source/license/index.html).

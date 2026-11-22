@@ -55,3 +55,12 @@ header nav .nav-support:hover,header nav .nav-support:focus-visible{background:#
 .support-disclosure .copy-payment { font: inherit; color: inherit; background: #242d40; border: 1px solid #53617a; border-radius: 6px; padding: 8px 10px; cursor: pointer; }
 .support-disclosure .copy-payment:focus-visible { outline: 2px solid #ffa9c5; outline-offset: 3px; }
 .support-disclosure .copy-status:empty { display: none; }
+
+.support-disclosure .support-paypal .support-address {
+  margin: 6px 0 0;
+  font-size: .8125rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.support-disclosure .support-address a { color: #b9c1ce; user-select: text; }
+.support-disclosure .support-address a:hover { color: inherit; }

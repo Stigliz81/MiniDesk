@@ -14,3 +14,44 @@ main.wrap.section{overflow-wrap:anywhere;hyphens:auto}
 
 /* Gadget detail pages share the existing MiniDesk palette. */
 .gadget-toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:8px;margin:24px 0}.gadget-toc a{padding:8px 12px;border:1px solid var(--line,#303747);border-radius:6px}.gadget-copy{max-width:800px}.gadget-detail figure{max-width:440px;margin:24px 0}.gadget-detail .gadget-copy p{overflow-wrap:anywhere}.gadget-list h3 a{color:inherit;text-decoration:none}.gadget-list h3 a:hover,.gadget-list h3 a:focus{text-decoration:underline}.technical-note{grid-column:1/-1;margin:8px 0}.technical-note summary{cursor:pointer;color:#b9c1ce}.download ol{padding-left:22px}
+
+/* Donation links keep the release download visually primary. */
+header nav .nav-support{background:#362237;padding:8px 13px;color:#ffd4ec}
+header nav .nav-support:hover,header nav .nav-support:focus-visible{background:#522c47}
+.support-paypal{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,220px);gap:24px;align-items:start;max-width:700px;margin:24px auto 0;text-align:left}
+.support-action{display:inline-block;padding:10px 15px;border:1px solid #b85b8c;border-radius:8px;color:#ffd4ec;background:#362237;text-decoration:none}
+.support-action:hover{background:#522c47}
+.support-paypal a{overflow-wrap:anywhere}
+.support-paypal figure{margin:0}
+.support-qr{display:inline-block;max-width:100%;background:#fff;line-height:0}
+.support-qr img{display:block;width:176px;max-width:100%;height:auto;max-height:none;border-radius:0}
+.support-paypal figcaption{margin-top:8px}
+@media(max-width:560px){.support-paypal{grid-template-columns:minmax(0,1fr);gap:16px}}
+
+.support-disclosure{max-width:700px;text-align:left}
+.support-disclosure summary{cursor:pointer;padding:10px 0;font-weight:650}
+.support-disclosure > summary{color:#ffd4ec;font-size:clamp(21px,3vw,30px)}
+.support-disclosure summary:focus-visible{outline:2px solid #f6a5cf;outline-offset:3px}
+.support-primary,.support-alternatives{border-top:1px solid #303747}
+.support-app{padding-left:12px}
+.support-disclosure .support-paypal{margin:4px 0 12px;grid-template-columns:minmax(0,1fr) 144px;gap:16px}
+.support-disclosure .support-paypal p,.support-external{font-size:14px;line-height:1.5}
+.support-disclosure .support-qr img{width:144px}
+@media(max-width:440px){.support-disclosure .support-paypal{grid-template-columns:minmax(0,1fr)}}
+
+.support-disclosure summary{cursor:pointer;padding-block:10px}
+.support-disclosure summary:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+.support-disclosure .support-alternatives { margin-top: 8px; border: 0; }
+.support-disclosure .support-alternatives > summary,
+.support-disclosure .payment-card > summary { padding: 10px 12px; background: #242d40; border: 1px solid #53617a; border-radius: 8px; cursor: pointer; list-style: revert; }
+.support-disclosure .support-alternatives > summary:hover,
+.support-disclosure .payment-card > summary:hover { border-color: #ffa9c5; }
+.support-disclosure .payment-list { display: grid; gap: 6px; margin-top: 8px; }
+.support-disclosure .payment-body { padding: 8px 0; }
+.support-disclosure .payment-body img { display: block; width: 144px; max-width: 100%; height: auto; margin-block: 8px; }
+.support-disclosure .payment-body input { display: block; width: 100%; border: 1px solid #53617a; border-radius: 6px; padding: 8px; font: inherit; color: inherit; background: transparent; }
+.support-disclosure .payment-actions { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 8px; }
+.support-disclosure .copy-payment { font: inherit; color: inherit; background: #242d40; border: 1px solid #53617a; border-radius: 6px; padding: 8px 10px; cursor: pointer; }
+.support-disclosure .copy-payment:focus-visible { outline: 2px solid #ffa9c5; outline-offset: 3px; }
+.support-disclosure .copy-status:empty { display: none; }

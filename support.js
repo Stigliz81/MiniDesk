@@ -16,8 +16,10 @@
   document.querySelectorAll('a[href="#support"]').forEach(link => {
     link.addEventListener('click', event => {
       if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
-      reveal();
-      requestAnimationFrame(() => panel.querySelector('summary').focus({preventScroll: true}));
+      event.preventDefault();
+      if (location.hash !== '#support') history.pushState(null, '', '#support');
+      revealFragment();
+      panel.querySelector('summary').focus({preventScroll: true});
     });
   });
   window.addEventListener('hashchange', event => {
